@@ -13,9 +13,13 @@ Yêu cầu máy phải có Docker ( Win or Ubuntu ) Hướng dẫn trên Ubuntu
 
 2: Khởi tạo node và chạy node, chạy lần lượt các lệnh theo thứ tự từ trên xuống dưới
 
+```bash
 export MNTESTNET_IMAGE=us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest
+```
 
+```bash
 export OWNER_ADDRESS=0xĐịaChỉVíCủaBạn
+```
 
 * Lệnh kiểm tra xem đã đúng địa chỉ ví chưa: 
 
