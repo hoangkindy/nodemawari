@@ -50,5 +50,7 @@ Cái address burner lưu lại, mỗi người sẽ ra 1 địa chỉ khác nha.
 - Chọn Delegate
 - Dán địa chỉ ví Bunder vào 
 
+3 License ID có thể chạy chung 1 địa chỉ Burner 
+
 4: Điền form feedback: https://docs.google.com/forms/d/e/1FAIpQLScn-qN1oNbd_At0UEIK5bJFPlEEouGh49f_MWHS7nhGeNDe8A/viewform
 
