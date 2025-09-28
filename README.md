@@ -21,14 +21,21 @@ export MNTESTNET_IMAGE=us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-u
 export OWNER_ADDRESS=0xĐịaChỉVíCủaBạn
 ```
 
+
 * Lệnh kiểm tra xem đã đúng địa chỉ ví chưa: 
 
+```bash
 echo $OWNER_ADDRESS
+```
+
 
 <img width="1051" height="82" alt="image" src="https://github.com/user-attachments/assets/67688c5d-2dec-4558-ad4f-d86582775a13" />
 
 * Lệnh khởi chạy node: 
+
+```bash
 mkdir -p ~/mawari && docker run --pull always -v ~/mawari:/app/cache -e OWNERS_ALLOWLIST=$OWNER_ADDRESS $MNTESTNET_IMAGE
+```
 
 * Khi chạy node xong để ý code sẽ hiện ra dòng:
 [INFO]  Using burner wallet {"address": "0x123456"} 
